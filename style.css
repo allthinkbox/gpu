@@ -1,0 +1,577 @@
+@charset "UTF-8";
+
+/*FONTES*/
+@font-face {
+    font-family: 'Debug Free Trial';
+    src: url(fontes/DebugFreeTrial-MVdYB.otf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Gamer';
+    src: url(fontes/Gamer.ttf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Valorax';
+    src: url(fontes/Valorax-lg25V.otf) format('opentype');
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+/*FIM FONTES*/
+
+/*320PIXELS*/
+@media (min-width:320px) {
+
+    /*CONFIGURAÇÕES GLOBAIS*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: #260D40;
+    }
+
+    h2{
+        color: #1BF2DD;
+        font-family: 'Valorax', sans-serif;
+        text-align: center;
+        font-weight: normal;
+        margin-bottom: 50px;
+    }
+
+    h3{
+        color: white;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.9em;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        font-weight: bolder;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    /*FIM CONFIGURAÇÕES GLOBAIS*/
+
+    /*DISPlAYS NONES*/
+    .principal-desktop{
+        display: none;
+    }
+
+    .equipe-desktop{
+        display: none;
+    }
+
+    .acessar-artigo1{
+        display: none;
+    }
+
+    /*FIM DISPlAYS NONES*/
+
+
+    /*MAIN MOBILE*/
+    .principal-mobile{
+        background-image: url(imagens/img-background-mobile.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding: 25px 0px 80px 0px;
+        margin-bottom: 70px;
+    }
+
+    .principal-mobile > img{
+        margin: 0px 0px 90px 30px;
+    }
+
+    .principal-mobile h1{
+        font-family: 'Debug Free Trial', sans-serif;
+        color: #1BF2DD;
+        font-weight: normal;
+        font-size: 5em;
+        margin: 0px 0px 40px 30px;
+    }
+
+    .principal-mobile p{
+        color: #FFF;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.9em;
+        margin: 0px 20px 40px 30px;
+        text-align: justify;
+    }
+
+    .principal-mobile div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5px;
+        background-color: #BF267A;
+        color: #FFF;
+        font-family: 'Gamer';
+        font-size: 1.5em;
+        width: 85px;
+        height: 45px;
+        border-radius: 3px;
+        border: 1px solid #484848;
+        margin: auto;
+    }
+    /*FIM MAIN MOBILE*/
+
+    /*SECTION ACESSE AGORA*/
+    .acesse-agora p{
+        color: #fff;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.9em;
+        text-align: justify;
+        padding: 0 20px;
+        margin-bottom: 50px;
+        line-height: 27px;
+    }
+
+    #scan-me{
+        display: block;
+        margin: 0 auto 25px auto;
+        width: 90%;
+    }
+
+    #qr-code{
+        display: block;
+        margin: 0 auto 25px auto;
+        width: 60%;
+    }
+
+    #link{
+        color: #E328FB;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.9em;
+        padding: 0 30px;
+        margin: 0 auto 30px auto;
+        text-align: center;
+    }
+
+    .line{
+        border-bottom: 1px solid #127CA6;
+        margin-bottom: 70px;
+    }
+    /*FIM SECTION ACESSE AGORA*/
+
+    /*SECTION SOBRE O TRABALHO*/
+    .sobre-trabalho p{
+        color: #fff;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.9em;
+        text-align: justify;
+        padding: 0 20px;
+        line-height: 27px;
+        margin-bottom: 30px;
+    }
+    /*FIM SECTION SOBRE O TRABALHO*/
+
+    /*SECTION EQUIPE MOBILE*/
+    .integrantes{
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+
+    .equipe-mobile p{
+        color: #fff;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.9em;
+        text-align: justify;
+        padding: 0 40px;
+        line-height: 27px;
+        margin-bottom: 15px;
+    }
+
+    .icon-instagram{
+        margin: 0 40px 0px 40px
+    }
+
+    .acessar-artigo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Gamer', sans-serif;
+        font-size: 2em;
+        margin: 80px auto;
+        width: 200px;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #BF267A;
+        box-shadow: 5px 0px 5px 2px rgba(140, 15, 119, 0.67), 0px 5px 5px 2px rgba(140, 15, 119, 0.67), -5px 0px 5px 2px rgba(140, 15, 119, 0.67), 0px -5px 5px 2px rgba(140, 15, 119, 0.67), 5px 5px 5px 2px rgba(140, 15, 119, 0.67) inset, -5px -5px 5px 2px rgba(140, 15, 119, 0.67) inset;
+    }
+    /*FIM SECTION EQUIPE MOBILE*/
+
+    /*FOOTER*/
+    footer{
+        text-align: center;
+        color: white;
+        font-family: 'Gamer', sans-serif;
+        padding: 20px 0;
+        font-size: 0.9em;
+        letter-spacing: 2px;
+    }
+    /*FIM FOOTER*/
+}
+/*FIM 320PIXELS*/
+
+/*480PIXELS*/
+@media (min-width: 480px) {
+
+    /*MAIN MOBILE*/
+    .principal-mobile{
+        padding: 25px 0px 110px 0px;
+    }
+
+    .principal-mobile > img{
+        margin: 0px 0px 120px 30px;
+    }
+
+    .principal-mobile h1{
+        font-size: 7em;
+    }
+
+    .principal-mobile p{
+        font-size: 1em;
+        margin: 0px 25px 40px 30px;
+    }
+    /*FIM MAIN MOBILE*/
+    
+    /*FOOTER*/
+    footer{
+        font-size: 1em;
+    }
+    /*FIM FOOTER*/
+}
+/*FIM 480PIXELS*/
+
+/*600PIXELS*/
+@media (min-width: 600px) {
+
+    /*MAIN MOBILE*/
+    .principal-mobile{
+        padding: 25px 0px 140px 0px;
+    }
+
+    .principal-mobile > img{
+        margin: 0px 0px 150px 30px;
+    }
+    /*FIM MAIN MOBILE*/
+
+    /*SECTION ACESSE AGORA*/
+    .acesse-agora p{
+        padding: 0 35px;
+    }
+
+    #scan-me{
+        width: 70%;
+    }
+
+    #qr-code{
+        width: 50%;
+    }
+    /*FIM SECTION ACESSE AGORA*/
+
+    /*SECTION SOBRE O TRABALHO*/
+    .sobre-trabalho p{
+        padding: 0 35px;
+    }
+    /*FIM SECTION SOBRE O TRABALHO*/
+
+    /*FOOTER*/
+    footer{
+        font-size: 1.2em;
+    }
+    /*FIM FOOTER*/
+}
+/*FIM 600PIXELS*/
+
+/*801 PIXELS*/
+@media (min-width: 801px) {
+    
+    /*MAIN MOBILE*/
+    .principal-mobile{
+        padding: 25px 0px 170px 0px;
+    }
+
+    .principal-mobile > img{
+        margin: 0px 0px 180px 30px;
+    }
+
+    .principal-mobile h1{
+        font-size: 9em;
+    }
+
+    .principal-mobile p{
+        font-size: 1.09em;
+        margin: 0px 60px 40px 30px;
+    }
+    /*FIM MAIN MOBILE*/
+
+    /*SECTION ACESSE AGORA*/
+    .acesse-agora p{
+        padding: 0 40px;
+        font-size: 1em;
+        line-height: 35px;
+    }
+
+    #scan-me{
+        width: 50%;
+    }
+
+    #qr-code{
+        width: 35%;
+    }
+
+    #link{
+        font-size: 1em;
+        padding: 0 40px;
+    }
+    /*FIM SECTION ACESSE AGORA*/
+
+    /*SECTION SOBRE O TRABALHO*/
+    .sobre-trabalho p{
+        padding: 0 40px;
+        font-size: 1em;
+        line-height: 35px;
+    }
+    /*FIM SECTION SOBRE O TRABALHO*/
+
+    /*SECTION EQUIPE MOBILE*/
+    .equipe-mobile p{
+        padding: 0 100px;
+    }
+
+    .icon-instagram{
+        margin: 0 40px 0px 100px
+    }
+    /*FIM SECTION EQUIPE MOBILE*/
+}
+/*FIM 801 PIXELS*/
+
+/*1025 PIXELS*/
+@media (min-width: 1025px) {
+    
+    /*DISPlAYS NONES*/
+    .principal-mobile{
+        display: none;
+    }
+
+    .equipe-mobile{
+        display: none;
+    }
+
+    /*FIM DISPlAYS NONES*/
+
+    .acessar-artigo1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Gamer', sans-serif;
+        font-size: 2em;
+        margin: 80px auto;
+        width: 200px;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #BF267A;
+        box-shadow: 5px 0px 5px 2px rgba(140, 15, 119, 0.67), 0px 5px 5px 2px rgba(140, 15, 119, 0.67), -5px 0px 5px 2px rgba(140, 15, 119, 0.67), 0px -5px 5px 2px rgba(140, 15, 119, 0.67), 5px 5px 5px 2px rgba(140, 15, 119, 0.67) inset, -5px -5px 5px 2px rgba(140, 15, 119, 0.67) inset;
+    }
+
+    /*PRINCIPAL DESKTOP*/
+    .principal-desktop{
+        display: block;
+        background-image: url(imagens/img-background-desktop.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding: 50px 0 120px 0;
+        margin-bottom: 70px;
+    }
+
+    .principal-desktop > img{
+        margin: 0 0 30px 60px;
+    }
+
+    .principal-desktop h1{
+        font-family: 'Debug Free Trial', sans-serif;
+        color: #fff;
+        font-weight: normal;
+        font-size: 7em;
+        text-align: center;
+        padding: 0 0 0px 0;
+    }
+
+    .principal-desktop p{
+        color: #FFF;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.9em;
+        padding: 80px;
+        text-align: justify;
+    }
+
+    .principal-desktop div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5px;
+        background-color: #BF267A;
+        color: #FFF;
+        font-family: 'Gamer';
+        font-size: 2em;
+        width: 100px;
+        height: 60px;
+        border-radius: 3px;
+        border: 1px solid #484848;
+        margin: auto;
+    }
+    /*FIM PRINCIPAL DESKTOP*/
+
+    /*SECTION ACESSE AGORA*/
+    .acesse-agora p{
+        padding: 0 60px;
+    }
+
+    #scan-me{
+        width: 30%;
+    }
+
+    #qr-code{
+        width: 30%;
+    }
+
+    #link{
+        padding: 0 60px;
+    }
+
+    .line{
+        width: 80%;
+        margin: 0 auto 70px auto;
+    }
+    /*FIM SECTION ACESSE AGORA*/
+
+    /*SECTION SOBRE O TRABALHO*/
+    .sobre-trabalho p{
+        padding: 0 60px;
+    }
+    /*FIM SECTION SOBRE O TRABALHO*/
+
+    /*SECTION EQUIPE DESKTOP*/
+    .equipe-desktop{
+        display: block;
+        margin-bottom: 570px;
+    }
+
+    #card{
+        display: flex;
+        justify-content: center;
+        margin-left: -665px;
+        transform-style: preserve-3d;
+        transition: all 1s;
+    }
+
+    #card1{
+        display: flex;
+        justify-content: center;
+        margin-left: 665px;
+        transform-style: preserve-3d;
+        transition: all 1s;
+    }
+
+    .face{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .face p{
+        color: white;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.8em;
+        text-align: justify;
+        width: 70%;
+    }
+
+    #front{
+        transform: rotateY(180deg);
+    }
+    
+    #back{
+        background-color: rgba(72, 72, 72, 0.85);
+        backface-visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        border-radius: 100%;
+    }
+
+    .flip{
+        transform: rotateY(180deg);
+    }
+
+    .img-icones:hover{
+        opacity: 0.5;
+    }
+    /*FIM SECTION EQUIPE DESKTOP*/
+}
+/*FIM 1025 PIXELS*/
+
+/*1251 PIXELS*/
+@media (min-width: 1251px) {
+
+    /*PRINCIPAL DESKTOP*/
+    .principal-desktop p{
+        font-size: 1.2em;
+        line-height: 40px;
+    }
+    /*FIM PRINCIPAL DESKTOP*/
+
+    /*SECTION ACESSE AGORA*/
+    .acesse-agora p{
+        padding: 0 80px;
+        font-size: 1.2em;
+        line-height: 40px;
+    }
+
+    #scan-me{
+        width: 25%;
+    }
+
+    #qr-code{
+        width: 25%;
+    }
+
+    #link{
+        padding: 0 80px;
+        font-size: 1.3em;
+    }
+    /*FIM SECTION ACESSE AGORA*/
+
+    /*SECTION SOBRE O TRABALHO*/
+    .sobre-trabalho p{
+        font-size: 1.2em;
+        line-height: 40px;
+        padding: 0 80px;
+    }
+    /*FIM SECTION SOBRE O TRABALHO*/
+
+    /*FOOTER*/
+    footer{
+        font-size: 1.5em;
+        letter-spacing: 5px;
+    }
+    /*FIM FOOTER*/
+}
+/*FIM 1251 PIXELS*/

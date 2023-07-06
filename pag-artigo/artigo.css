@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+/*FONTES*/
+@font-face {
+    font-family: 'Debug Free Trial';
+    src: url(../fontes/DebugFreeTrial-MVdYB.otf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Gamer';
+    src: url(../fontes/Gamer.ttf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Valorax';
+    src: url(../fontes/Valorax-lg25V.otf) format('opentype');
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+/*FIM FONTES*/
+
+/*320 PIXELS*/
+@media (min-width:320px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background: linear-gradient(135deg, #260D40 0%, #BF267A 50.52%, #127CA6 100%);
+        background-repeat: no-repeat;
+    }
+    
+    h1{
+        color: #1BF2DD;
+        font-family: 'Valorax', sans-serif;
+        font-size: 0.88em;
+        text-align: center;
+        padding: 50px 0;
+        font-weight: normal;
+    }
+
+    h2{
+        color: #BF267A;
+        font-family: 'Gamer', sans-serif;
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: normal;
+        margin-bottom: 5px;
+    }
+
+    .links{
+        text-decoration: none;
+        color: #127CA6;
+        font-family: 'Share Tech Mono', monospace;
+    }
+
+    strong{
+        color: #BF267A;
+        font-weight: normal;
+    }
+
+    p{
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.9em;
+        text-align: justify;
+        margin: 0 auto 20px auto;
+        padding: 0 20px;
+        line-height: 20px;
+    }
+
+    .floo{
+        color: #260D40;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    footer{
+        color: white;
+        font-family: 'Gamer', sans-serif;
+        font-size: 1em;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .artigo{
+        width: 90%;
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.452);
+        margin-bottom: 60px;
+        padding: 0 0 10px 0;
+    }
+
+    .logo{
+        width: 15%;
+        margin: 25px 0px 0px 15px;
+    }
+
+    .sessoes{
+        border: 1px solid #8C0F77;
+        border-radius: 10px;
+        width: 90%;
+        margin: 0 auto 50px auto;
+        padding: 10px 0;
+    }
+
+    .lista-pai{
+        list-style-position: inside;
+        list-style-type: '\27A4\00A0\00A0';
+        text-align: center;
+        color: #127CA6;
+    }
+
+    .lista-pai .filha{
+        margin: 15px 0;
+    }
+
+    .img-artg-desktop{
+        display: none;
+    }
+
+    .img-artg-mobile{
+        display: block;
+        width: 80%;
+        margin: 30px auto;
+        border-radius: 10px;
+    }
+
+}
+/*FIM 320 PIXELS*/
+
+/*480 PIXELS*/
+@media (min-width: 480px) {
+    h1{
+        font-size: 1em;
+    }
+
+    footer{
+        font-size: 1.2em;
+    }
+
+    .artigo{
+        width: 90%;
+    }
+
+    .logo{
+        width: 12%;
+        margin: 25px 0px 0px 15px;
+    }
+}
+/*FIM 480 PIXELS*/
+
+/*600 PIXELS*/
+@media (min-width: 600px) {
+    h1{
+        font-size: 1.4em;
+        padding: 80px 0;
+    }
+
+    .logo{
+        width: 10%;
+        margin: 25px 0px 0px 15px;
+    }
+
+    h2{
+        font-size: 2em;
+        margin-bottom: 5px;
+    }
+
+    p{
+        font-size: 1em;
+        padding: 0 30px;
+        line-height: 25px;
+    }
+}
+/*FIM 600 PIXELS*/
+
+/*801 PIXELS*/
+@media (min-width: 801px) {
+    h1{
+        font-size: 1.7em;
+    }
+
+    footer{
+        font-size: 1.5em;
+        letter-spacing: 2px;
+    }
+
+    .img-artg-desktop{
+        display: block;
+        width: 80%;
+        margin: 40px auto;
+        border-radius: 10px;
+    }
+
+    .img-artg-mobile{
+        display: none;
+    }
+}
+/*FIM 801 PIXELS*/
+
+/*1025 PIXELS*/
+@media (min-width: 1025px) {
+    .logo{
+        width: 8%;
+        margin: 35px 0px 0px 25px;
+    }
+
+    h2{
+        font-size: 2.5em;
+        margin-bottom: 5px;
+    }
+
+    p{
+        font-size: 1.2em;
+        padding: 0 40px;
+        line-height: 30px;
+    }
+}
+/*FIM 1025 PIXELS*/
+
+/*1251 PIXELS*/
+@media (min-width: 1251px) {
+    h1{
+        font-size: 2em;
+        padding: 120px 0;
+    }
+
+    footer{
+        font-size: 1.7em;
+        letter-spacing: 3px;
+    }
+
+    .artigo{
+        width: 80%;
+    }
+
+    .logo{
+        width: 7%;
+        margin: 35px 0px 0px 25px;
+    }
+
+    h2{
+        font-size: 3em;
+        margin-bottom: 5px;
+    }
+
+    p{
+        font-size: 1.2em;
+        padding: 0 45px;
+        line-height: 35px;
+    }
+
+    .links{
+        font-size: 1.2em;
+    }
+}
+/*FIM 1251 PIXELS*/
