@@ -57,6 +57,7 @@
     a{
         text-decoration: none;
     }
+
     /*FIM CONFIGURAÇÕES GLOBAIS*/
 
     /*DISPlAYS NONES*/
@@ -148,7 +149,7 @@
     #link{
         color: #E328FB;
         font-family: 'Share Tech Mono', monospace;
-        font-size: 0.9em;
+        font-size: 0.7em;
         padding: 0 30px;
         margin: 0 auto 30px auto;
         text-align: center;
@@ -290,6 +291,10 @@
         font-size: 1.2em;
     }
     /*FIM FOOTER*/
+
+    #link{
+        font-size: 0.9em;    
+    }
 }
 /*FIM 600PIXELS*/
 
@@ -573,5 +578,9 @@
         letter-spacing: 5px;
     }
     /*FIM FOOTER*/
+
+    #link{
+        font-size: 1.5em;    
+    }
 }
 /*FIM 1251 PIXELS*/
